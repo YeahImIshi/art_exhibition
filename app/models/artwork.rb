@@ -1,6 +1,6 @@
 class Artwork < ApplicationRecord
   validates :title, presence: true
-  validates :classification, presence: true
+  validates :classification, presence: true, inclusion: { in: ['painting', 'sculpture', 'print', 'decorative art', 'drawing', 'Index of American Design'], case_sensitive: false }
   validates :begin_year, presence: true
   validates :end_year, presence: true
   validates :medium, presence: true
