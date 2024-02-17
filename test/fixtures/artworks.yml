@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  classification: MyString
+  begin_year: 1
+  end_year: 1
+  medium: MyString
+  provenance_text: MyText
+  attribution: MyString
+  credit_line: MyString
+
+two:
+  title: MyString
+  classification: MyString
+  begin_year: 1
+  end_year: 1
+  medium: MyString
+  provenance_text: MyText
+  attribution: MyString
+  credit_line: MyString
