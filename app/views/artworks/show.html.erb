@@ -1,0 +1,10 @@
+<h1><%= @artwork.title %></h1>
+<p><strong>Classification:</strong> <%= @artwork.classification %></p>
+<p><strong>Year:</strong> <%= @artwork.beginyear %> - <%= @artwork.endyear %></p>
+<p><strong>Medium:</strong> <%= @artwork.medium %></p>
+<p><strong>Provenance:</strong> <%= @artwork.provenancetext %></p>
+<p><strong>Attribution:</strong> <%= @artwork.attribution %></p>
+<p><strong>Credit Line:</strong> <%= @artwork.creditline %></p>
+
+
+<%= link_to 'Back', artwork_path %>

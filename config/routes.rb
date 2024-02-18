@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'artwork/index'
+  get 'artworks/index'
 
   get '/artworks', to: 'artworks#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  resources :artworks, only: [:index, :show]
 end
